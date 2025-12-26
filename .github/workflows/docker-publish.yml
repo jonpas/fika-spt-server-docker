@@ -11,7 +11,8 @@ on:
     tags: [ '*.*.*' ]
   pull_request:
     branches: [ "master" ]
-  branches: [" master-jonpas" ]
+  branches:
+    - master-jonpas
 
 env:
   # Use docker.io for Docker Hub if empty
